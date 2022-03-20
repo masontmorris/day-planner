@@ -25,6 +25,10 @@ textarea {
     white-space: pre-wrap;
 }
 
+.container {
+    min-width: 100%;
+}
+
 .time-block {
     text-align: center;
     border-radius: 15px;
@@ -34,7 +38,10 @@ textarea {
     white-space: pre-wrap;
     height: 80px;
     border-top: 1px solid white;
-    display: flex;
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-bottom: 10em;
+    width: 100%;
 }
 
 .hour {
@@ -58,7 +65,7 @@ textarea {
     color: white;
 }
 
-.saveBtn {
+.save-btn {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
